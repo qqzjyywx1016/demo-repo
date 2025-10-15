@@ -1,3 +1,3 @@
-echo "print('Hello World')" > main.py
+echo "def add(a, b): return a + b" >> main.py
 git add main.py
-git commit -m "feat: add main.py"
+git commit -m "feat: add add() function"
