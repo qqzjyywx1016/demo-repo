@@ -1,3 +1,3 @@
-echo "# Demo Repo" > README.md
-git add README.md
-git commit -m "chore: initialize README"
+echo "print('Hello World')" > main.py
+git add main.py
+git commit -m "feat: add main.py"
