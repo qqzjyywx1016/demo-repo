@@ -1,4 +1,6 @@
-echo "def div(a, b): return a / b if b != 0 else None" >> main.py
-git add main.py
-git commit -m "feat: add div() function"
+mkdir tests
+echo "from main import add, sub" > tests/test_math.py
+git add tests/test_math.py
+git commit -m "test: add basic test file"
+
 
