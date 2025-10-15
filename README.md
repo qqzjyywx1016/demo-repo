@@ -1,5 +1,6 @@
-echo "print(add(2,3))" >> main.py
+echo "print(sub(5,2))" >> main.py
 git add main.py
-git commit -m "chore: test add() output"
+git commit -m "chore: test sub() output"
+
 
 
