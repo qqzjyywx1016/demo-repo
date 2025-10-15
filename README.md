@@ -1,6 +1,5 @@
-mkdir tests
-echo "from main import add, sub" > tests/test_math.py
-git add tests/test_math.py
-git commit -m "test: add basic test file"
+echo "print(add(2,3))" >> main.py
+git add main.py
+git commit -m "chore: test add() output"
 
 
